@@ -22,7 +22,7 @@ class SliderViewController: UIViewController {
         slider.maximumValue = 100
         slider.setValue(0, animated: true)
         slider.thumbTintColor = .red
-        //slider.isContinuous = false
+        slider.isContinuous = false
         slider.addTarget(self, action: #selector(changeVlaue(_:)), for: .valueChanged)
         
         let minLabel = UILabel()
