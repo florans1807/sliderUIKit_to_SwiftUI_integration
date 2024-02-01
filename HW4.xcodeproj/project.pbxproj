@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4ACC53E82B6AAC36003D47F0 /* HW4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC53E72B6AAC36003D47F0 /* HW4App.swift */; };
-		4ACC53EA2B6AAC36003D47F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC53E92B6AAC36003D47F0 /* ContentView.swift */; };
+		4ACC53EA2B6AAC36003D47F0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC53E92B6AAC36003D47F0 /* SwiftUIView.swift */; };
 		4ACC53EC2B6AAC39003D47F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC53EB2B6AAC39003D47F0 /* Assets.xcassets */; };
 		4ACC53EF2B6AAC39003D47F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC53EE2B6AAC39003D47F0 /* Preview Assets.xcassets */; };
 		4ACC53F92B6AAC39003D47F0 /* HW4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC53F82B6AAC39003D47F0 /* HW4Tests.swift */; };
 		4ACC54032B6AAC39003D47F0 /* HW4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC54022B6AAC39003D47F0 /* HW4UITests.swift */; };
 		4ACC54052B6AAC39003D47F0 /* HW4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC54042B6AAC39003D47F0 /* HW4UITestsLaunchTests.swift */; };
+		4ACC54122B6B9BEC003D47F0 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC54112B6B9BEC003D47F0 /* SliderViewController.swift */; };
+		4ACC54142B6BBB06003D47F0 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC54132B6BBB06003D47F0 /* CustomSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		4ACC53E42B6AAC36003D47F0 /* HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACC53E72B6AAC36003D47F0 /* HW4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW4App.swift; sourceTree = "<group>"; };
-		4ACC53E92B6AAC36003D47F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4ACC53E92B6AAC36003D47F0 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		4ACC53EB2B6AAC39003D47F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ACC53EE2B6AAC39003D47F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4ACC53F42B6AAC39003D47F0 /* HW4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		4ACC53FE2B6AAC39003D47F0 /* HW4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACC54022B6AAC39003D47F0 /* HW4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW4UITests.swift; sourceTree = "<group>"; };
 		4ACC54042B6AAC39003D47F0 /* HW4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4ACC54112B6B9BEC003D47F0 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		4ACC54132B6BBB06003D47F0 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				4ACC53E72B6AAC36003D47F0 /* HW4App.swift */,
-				4ACC53E92B6AAC36003D47F0 /* ContentView.swift */,
+				4ACC53E92B6AAC36003D47F0 /* SwiftUIView.swift */,
 				4ACC53EB2B6AAC39003D47F0 /* Assets.xcassets */,
 				4ACC53ED2B6AAC39003D47F0 /* Preview Content */,
+				4ACC54112B6B9BEC003D47F0 /* SliderViewController.swift */,
+				4ACC54132B6BBB06003D47F0 /* CustomSlider.swift */,
 			);
 			path = HW4;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ACC53EA2B6AAC36003D47F0 /* ContentView.swift in Sources */,
+				4ACC54122B6B9BEC003D47F0 /* SliderViewController.swift in Sources */,
+				4ACC53EA2B6AAC36003D47F0 /* SwiftUIView.swift in Sources */,
 				4ACC53E82B6AAC36003D47F0 /* HW4App.swift in Sources */,
+				4ACC54142B6BBB06003D47F0 /* CustomSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
