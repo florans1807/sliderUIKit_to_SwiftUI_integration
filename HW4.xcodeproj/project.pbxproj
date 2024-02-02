@@ -16,6 +16,7 @@
 		4ACC54052B6AAC39003D47F0 /* HW4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC54042B6AAC39003D47F0 /* HW4UITestsLaunchTests.swift */; };
 		4ACC54122B6B9BEC003D47F0 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC54112B6B9BEC003D47F0 /* SliderViewController.swift */; };
 		4ACC54142B6BBB06003D47F0 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC54132B6BBB06003D47F0 /* CustomSlider.swift */; };
+		4ACC54162B6D2007003D47F0 /* GameSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC54152B6D2007003D47F0 /* GameSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4ACC54042B6AAC39003D47F0 /* HW4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW4UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4ACC54112B6B9BEC003D47F0 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 		4ACC54132B6BBB06003D47F0 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		4ACC54152B6D2007003D47F0 /* GameSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				4ACC53ED2B6AAC39003D47F0 /* Preview Content */,
 				4ACC54112B6B9BEC003D47F0 /* SliderViewController.swift */,
 				4ACC54132B6BBB06003D47F0 /* CustomSlider.swift */,
+				4ACC54152B6D2007003D47F0 /* GameSliderView.swift */,
 			);
 			path = HW4;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				4ACC54122B6B9BEC003D47F0 /* SliderViewController.swift in Sources */,
 				4ACC53EA2B6AAC36003D47F0 /* SwiftUIView.swift in Sources */,
+				4ACC54162B6D2007003D47F0 /* GameSliderView.swift in Sources */,
 				4ACC53E82B6AAC36003D47F0 /* HW4App.swift in Sources */,
 				4ACC54142B6BBB06003D47F0 /* CustomSlider.swift in Sources */,
 			);
